@@ -1,0 +1,101 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harish Mahajan | Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; line-height: 1.6;background: #f0f4f8;color: #222;}
+    header { background: #004d40; color: white; padding: 4rem 2rem; text-align: center; }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; animation: fadeInDown 1s ease; }
+    header p { font-size: 1.2rem; animation: fadeInUp 1s ease; }nav { display: flex; justify-content: center; gap: 1rem; background: #004d40; padding: 1rem 0; position: sticky; top: 0; }
+nav a { color: white; text-decoration: none; font-weight: bold; transition: color 0.3s; }
+nav a:hover { color: #64ffda; }
+
+section { padding: 3rem 2rem; max-width: 900px; margin: auto; }
+section h2 { font-size: 2rem; margin-bottom: 1rem; color: #004d40; }
+.skills, .projects, .certs { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+.card { background: white; padding: 1rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.3s; }
+.card:hover { transform: translateY(-5px); }
+
+footer { text-align: center; padding: 2rem; background: #004d40; color: white; }
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid white;
+  margin: 0 auto 1rem;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="harish pfp.jpg" alt="Harish Mahajan" class="profile-pic" />
+    <h1>Harish Mahajan</h1>
+    <p>B.Tech AIML Student | Future AI Engineer</p>
+  </header>  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>  <section id="about">
+    <h2>About Me</h2>
+    <p>I am Harish Mahajan a passionate first-year B.Tech student specializing in Artificial Intelligence and Machine Learning. I love building real-world tech projects, exploring data, and solving problems using smart solutions and creative thinking.</p>
+  </section>  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">html5</div>
+      <div class="card"> basic of C</div>
+      <div class="card">basic css</div>
+      <div class="card">basic java script</div>
+      <div class="card">editing</div>
+      <div class="card">simple animations</div>
+    </div>
+  </section>  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Simple Games</h3>
+        <p>A simple rule-based chatbot created in Python for learning conversation flow.</p>
+        
+      </div>
+      <div class="card">
+        <h3>Student Grade Calculator</h3>
+        <p>GUI tool built using Tkinter that calculates grades from input marks.</p>
+      </div>
+      <div class="card">
+        <h3>Titanic Survival Prediction</h3>
+        <p>Explored ML basics with a logistic regression model using Kaggle dataset.</p>
+      </div>
+    </div>
+  </section>  <section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certs">
+      <div class="card">10th Std Bords with-86.80%</div>
+      <div class="card">12th Std Board with-87.60%</div>
+      <div class="card">97 marks IT Exam in 12th</div>
+    </div>
+  </section>  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: mahajanharish46@gmail.com</p>
+    <p>INSTAGRAM: <a href=" https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=copy_link&utm_content=klnckpw" target="_blank">instagram.profile-Harish</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/harish-mahajan-280651360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">linkedin.com/in/harish</a></p>
+  </section>  <footer>
+    <p>© 2025 Harish Mahajan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
